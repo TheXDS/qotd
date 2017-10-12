@@ -1,0 +1,58 @@
+*{
+    text-decoration: none;
+    margin:0;
+}
+body{
+    background-color: #444;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic
+}
+.content{
+    margin-bottom: 50px;
+}
+header{
+    background-color: black;
+    padding: 10px;
+    border-bottom: 5px red solid;
+}
+footer{
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+
+footer i{
+    letter-spacing: 0.6em;
+    color: red;
+}
+
+.quoteList{
+    padding: 0px;
+}
+.quoteList li{
+    list-style: none;
+    background-color: #333;
+    border-right: 2px red solid;
+    padding: 10px;
+    margin: 5px;
+}
+.quoteList li small{
+    display: block;
+    text-align: right;
+    color: #9b9b9b;
+    line-height: 1.5em;
+    font-size: 8;
+}
+
+.dock-vertical{
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+.dock-horizontal{
+    position: absolute;
+    height: 100%;
+    box-sizing: border-box;
+}
